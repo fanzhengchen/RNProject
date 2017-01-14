@@ -20,7 +20,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
 public class WebsocketComponent {
 
 
-    private final static Logger logger = LoggerFactory.getLogger(WebsocketComponent.class);
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     private static int onlineCount = 0;
 
